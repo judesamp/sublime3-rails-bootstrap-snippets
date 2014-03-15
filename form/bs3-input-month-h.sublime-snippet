@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+  %label.control-label{class: "col-${2:sm-2}", for: "input${1/(\\w+)/\\u\\1/g}"} ${1/(\w+)/\u\1/g}:
+  %div{class: "col-${3:sm-10}"}
+    %input.form-control{id: "input${1/(\\w+)/\\u\\1/g}", name: "${1}", type: "month"}>/
+    ${4:value="${5}"} ${6:required="required"} ${7:title="${8}"}&gt;
+]]></content>
+	<tabTrigger>bs3-input:month:h</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

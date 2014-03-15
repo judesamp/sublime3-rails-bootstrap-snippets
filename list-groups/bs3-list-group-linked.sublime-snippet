@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.list-group
+  %a.list-group-item.active{href: "#"} Item 1
+  %a.list-group-item{href: "#"} Item 2
+  %a.list-group-item{href: "#"} Item 3
+]]></content>
+	<tabTrigger>bs3-list-group:linked</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

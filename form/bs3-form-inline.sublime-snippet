@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+%form.form-inline{action: "${1}", method: "${2:POST}", role: "form"}
+  ${3:
+  .form-group>
+    %label.sr-only{for: ""} label
+    %input.form-control{id: "", placeholder: "Input field", type: "email"}/
+  }
+  
+  ${0}
+  %button.btn.btn-primary{type: "submit"} ${4:Submit}
+]]></content>
+	<tabTrigger>bs3-form:inline</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

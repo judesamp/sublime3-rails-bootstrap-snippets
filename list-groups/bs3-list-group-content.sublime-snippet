@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.list-group
+  %a.list-group-item.active{href: "#"}
+    %h4.list-group-item-heading ${1:List group item heading}
+    %p.list-group-item-text ${2:Content goes here}
+]]></content>
+	<tabTrigger>bs3-list-group:content</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

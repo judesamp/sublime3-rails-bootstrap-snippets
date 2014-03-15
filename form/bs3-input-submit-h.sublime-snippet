@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+  .col-offset-2{class: "col-${3:sm-10}"}
+    %button.btn.btn-primary{type: "submit"} ${5:Submit}
+]]></content>
+	<tabTrigger>bs3-input:submit:h</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

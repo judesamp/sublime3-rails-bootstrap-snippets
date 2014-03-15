@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.alert.alert-info
+  %button.close{"aria-hidden" => "true", "data-dismiss" => "alert", type: "button"} &#215;
+  %strong ${1:Title!}
+  ${2:Alert body ...}
+]]></content>
+	<tabTrigger>bs3-alert:info</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

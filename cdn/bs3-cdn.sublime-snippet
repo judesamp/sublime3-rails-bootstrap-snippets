@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+/ Latest compiled and minified JS
+%link{href: "//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css", media: "screen", rel: "stylesheet"}/
+${1:%script{src: "//code.jquery.com/jquery.js"}>}
+%script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"}
+]]></content>
+	<tabTrigger>bs3-cdn</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

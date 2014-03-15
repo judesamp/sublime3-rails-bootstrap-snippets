@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+%div{class: "${2:col-xs-${1}} ${3:col-sm-${1}} ${4:col-md-${1}} ${5:col-lg-${1}}"}
+  ${0}
+]]></content>
+	<tabTrigger>bs3-col</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

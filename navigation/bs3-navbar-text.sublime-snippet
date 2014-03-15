@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%p.navbar-text ${1:Navbar text}
+]]></content>
+	<tabTrigger>bs3-navbar:text</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

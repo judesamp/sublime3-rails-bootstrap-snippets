@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%span.badge ${1:Badge}
+]]></content>
+	<tabTrigger>bs3-badge</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

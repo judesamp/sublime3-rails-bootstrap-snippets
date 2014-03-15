@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+.panel{class: "panel-${1:default}"}
+  / Default panel contents
+  .panel-heading Panel heading
+  .panel-body
+    %p Text goes here...
+  / Table
+  %table.table
+    %thead
+      %tr
+        %th ${2:Heading 1}
+      %tr
+        %th ${3:Heading 2}
+    %tbody
+      %tr
+        %td ${4:Content 1}
+      %tr
+        %td ${5:Content 2}
+]]></content>
+	<tabTrigger>bs3-panel:table</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

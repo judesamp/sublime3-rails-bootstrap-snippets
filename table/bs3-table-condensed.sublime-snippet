@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+%table.table.table-condensed{class: "${1:table-hover}"}
+  %thead
+    %tr
+      %th
+  %tbody
+    %tr
+      %td
+]]></content>
+	<tabTrigger>bs3-table:condensed</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

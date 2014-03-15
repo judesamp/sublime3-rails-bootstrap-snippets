@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+%ul.pager
+  %li
+    %a{href: "#"} Previous
+  %li
+    %a{href: "#"} Next
+]]></content>
+	<tabTrigger>bs3-pager</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

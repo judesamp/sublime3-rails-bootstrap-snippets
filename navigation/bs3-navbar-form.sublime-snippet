@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+%form.navbar-form{class: "pull-${1:right}"}
+  %input{style: "width: 200px;", type: "text"}/
+  %button.btn{class: "btn-${2:default}", type: "submit"} ${3:Submit}
+]]></content>
+	<tabTrigger>bs3-navbar:form</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

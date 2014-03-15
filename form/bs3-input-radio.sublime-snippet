@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.radio
+  %label
+    %input{id: "input${1/(\\w+)/\\u\\1/g}", name: "${1}", type: "radio", value: "${2}"}>/
+    ${3:checked="checked"}&gt;
+    ${4:Radio Box}
+]]></content>
+	<tabTrigger>bs3-input:radio</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

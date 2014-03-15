@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.navbar
+  %a.navbar-brand{href: "#"} ${1:Title}
+  %ul.nav.navbar-nav
+    %li.active
+      %a{href: "#"} ${2:Home}
+    %li
+      %a{href: "#"} ${3:Link}
+]]></content>
+	<tabTrigger>bs3-navbar:basic</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+%ul.list-group
+  %li.list-group-item
+    %span.badge 5
+    Item 1
+  %li.list-group-item
+    %span.badge 10
+    Item 2
+  %li.list-group-item
+    %span.badge 15
+    Item 3
+]]></content>
+	<tabTrigger>bs3-list-group:badges</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

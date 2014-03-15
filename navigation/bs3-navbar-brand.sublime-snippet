@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%a.navbar-brand{href: "${1:/}"} ${2:Title}
+]]></content>
+	<tabTrigger>bs3-navbar:brand</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

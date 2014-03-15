@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+%ol.breadcrumb
+  %li
+    %a{href: "${1:#}"} ${2:Home}
+  ${3:
+  %li>
+    %a{href: "#"} Link
+  }
+  %li.active ${4:Current}
+]]></content>
+	<tabTrigger>bs3-breadcrumbs</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

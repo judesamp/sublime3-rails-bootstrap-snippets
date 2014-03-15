@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%input.btn.btn-default{type: "reset", value: "${1:Reset}"}/
+]]></content>
+	<tabTrigger>bs3-input:reset</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

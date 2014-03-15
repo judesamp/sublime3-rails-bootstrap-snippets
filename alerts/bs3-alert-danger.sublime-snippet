@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+.alert.alert-danger
+	%button{"type"=>"button", "class"=>"close", "data-dismiss"=>"alert", "aria-hidden"=>"true"}= &times;
+  %strong= ${1:Title!}
+  ${2:Alert body ...}
+]]></content>
+	<tabTrigger>bs3-alert:danger</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

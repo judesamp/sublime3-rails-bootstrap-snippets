@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+%div{class: "col-xs-${1:3} col-sm-${1:3} col-md-${1:3} col-lg-${1:3}"}
+  .thumbnail
+    %img{alt: "${3}", "data-src" => "${2:#}"}/
+    .caption
+      %h3 ${4:Title}
+      %p
+        ${5:...}
+      %p
+        %a.btn.btn-primary{href: "${6:#}"} ${7:Action}
+        %a.btn.btn-default{href: "${8:#}"} ${9:Action}
+]]></content>
+	<tabTrigger>bs3-thumbnail:content</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

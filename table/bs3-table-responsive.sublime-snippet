@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+.table-responsive
+  %table{class: "table${1: table-hover}"}
+    %thead
+      %tr
+        %th
+    %tbody
+      %tr
+        %td
+]]></content>
+	<tabTrigger>bs3-table:responsive</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

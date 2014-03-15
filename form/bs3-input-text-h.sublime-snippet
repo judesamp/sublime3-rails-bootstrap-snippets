@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+.form-group
+  %label.control-label{class: "col-${2:sm-2}", for: "input${1/(\\w+)/\\u\\1/g}"} ${1/(\w+)/\u\1/g}:
+  %div{class: "col-${3:sm-10}"}
+    %input.form-control{id: "input${1/(\\w+)/\\u\\1/g}", name: "${1}", type: "text"}>/
+    ${4:value="${5}"} ${6:required="required"} ${7:pattern="${8}"} ${9:title="${10}"}&gt;
+]]></content>
+	<tabTrigger>bs3-input:text:h</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

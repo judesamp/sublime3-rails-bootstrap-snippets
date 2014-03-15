@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%button.btn.btn-primary{type: "submit"} ${5:Submit}
+]]></content>
+	<tabTrigger>bs3-input:submit</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

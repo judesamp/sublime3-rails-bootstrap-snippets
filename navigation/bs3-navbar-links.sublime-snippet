@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+%ul.nav.navbar-nav
+  %li.active
+    %a{href: "${1:#}"} ${2:Home}
+  %li
+    %a{href: "${3:#}"} ${4:Link}
+]]></content>
+	<tabTrigger>bs3-navbar:links</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+%img{src: "${1:#}"}>/
+${2:class="img-responsive"} alt="${3:Image}"&gt;
+]]></content>
+	<tabTrigger>bs3-image</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+%input.form-control{id: "input${1/(\\w+)/\\u\\1/g}", name: "${1}", type: "text"}>/
+${2:value="${3}"} ${4:required="required"} ${5:pattern="${6}"} ${7:title="${8}"}&gt;
+]]></content>
+	<tabTrigger>bs3-input:text</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

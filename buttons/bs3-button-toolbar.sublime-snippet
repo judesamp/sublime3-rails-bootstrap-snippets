@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+.btn-toolbar
+  .btn-group
+  .btn-group
+  .btn-group
+]]></content>
+	<tabTrigger>bs3-toolbar</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

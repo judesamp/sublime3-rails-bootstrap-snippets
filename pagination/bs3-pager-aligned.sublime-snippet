@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+%ul.pager
+  %li.previous
+    %a{href: "#"} &#8592; Older
+  %li.next
+    %a{href: "#"} Newer &#8594;
+]]></content>
+	<tabTrigger>bs3-pager:aligned</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

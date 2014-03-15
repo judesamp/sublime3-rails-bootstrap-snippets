@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+.panel{class: "panel-${1:default}"}
+  .panel-body
+    ${2:Basic panel example}
+]]></content>
+	<tabTrigger>bs3-panel</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

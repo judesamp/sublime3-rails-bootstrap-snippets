@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%${1:button}{${2:type: "button"}, class: "btn btn-sm btn-warning"} ${3:button}
+]]></content>
+	<tabTrigger>bs3-sm-button:warning</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

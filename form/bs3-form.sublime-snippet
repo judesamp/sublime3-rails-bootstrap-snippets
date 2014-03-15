@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+%form{action: "${1}", method: "${2:POST}", role: "form"}
+  %legend ${3:Form title}
+  .form-group
+    %label{for: ""} ${4:label}
+    %input.form-control{id: "", placeholder: "Input field", type: "text"}/
+  ${0}
+  %button.btn.btn-primary{type: "submit"} ${5:Submit}
+]]></content>
+	<tabTrigger>bs3-form</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

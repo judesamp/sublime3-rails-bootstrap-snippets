@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+/ Latest compiled and minified JS
+${1:%script{src: "//code.jquery.com/jquery.js"}>}
+%script{src: "//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"}
+]]></content>
+	<tabTrigger>bs3-cdn:js</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>

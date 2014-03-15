@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+%span.label ${1:Label}
+]]></content>
+	<tabTrigger>bs3-label</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

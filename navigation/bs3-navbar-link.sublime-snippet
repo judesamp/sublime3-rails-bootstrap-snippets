@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+%p.navbar-text{class: "pull-${1:right}"}
+  %a.navbar-link{href: "${2:#}"} ${3:Links}
+]]></content>
+	<tabTrigger>bs3-navbar:link</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+

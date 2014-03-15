@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+%form.form-horizontal{action: "${1}", method: "${2:POST}", role: "form"}
+  .form-group
+    %legend ${3:Form title}
+  ${0}
+  .form-group
+    .col-sm-10.col-sm-offset-2
+      %button.btn.btn-primary{type: "submit"} ${4:Submit}
+]]></content>
+	<tabTrigger>bs3-form:horizontal</tabTrigger>
+  <scope>text.haml</scope>
+</snippet>
+
